@@ -90,4 +90,4 @@ def index(request):
             )
             return redirect(linkedin_redirect_url)
     
-    return render(request, 'login.html')
+    return render(request, 'index.html')
